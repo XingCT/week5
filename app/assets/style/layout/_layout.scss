@@ -1,79 +1,25 @@
-body{
-    line-height: 1.5;
-}
-
-
 .header{
-    width: 296px;
-    height: 800px;
-    h1 a{
-        display: block;
+    width: 21%;
+    height: auto;
+}
+.menu{
+    h1 a {
         background: url(../images/logo-ANSWER.svg) no-repeat;
         background-size: contain;
-        width: 161px; 
+        width: 151px;
         height: 40px;
         text-indent: 101%;
-        overflow: hidden;
         white-space: nowrap;
-        margin:32px;
     }
-    ul{
-        li{
-            a{
-                display: block;
-                font-size: 16px;
-                line-height: 32px;
-                padding-left: 32px;
-                margin-bottom: 24px;
-                text-decoration: none;
-                color: #212529;
-                &:hover{
-                    padding-left: 28px;
-                    border-left: 4px solid #198754;
-                    color: #198754;
-                }
+    ul li{ 
+        a{
+            padding: 4px 32px;
+            color: #212529;
+            &:hover{
+                color: #198754;        
+                border-left: 4px solid #198754;
+                padding-left: 28px;
             }
         }
     }
-}
-.name{
-    margin: 32px;
-    span{
-        color: #6C757D;
-    }
-}
-
-.btn{
-    border: 1px solid #198754;
-    &:hover{
-        color: white;
-        background-color: #198754;
-    }
-}
-
-
-.title{
-    padding-bottom: 32px;
-    h2{
-        font-size: 24px;
-        margin-right: 47px;
-    }
-    a{
-        text-decoration: none;
-        span{
-            margin-right: 8px;
-        }
-    }
-    p{
-        font-size: 16px;
-        line-height: 1.5;
-    }
-}
-
-table{
-    border: none;
-}
-
-.email{
-    max-width: 984px;
 }
